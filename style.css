@@ -1,0 +1,155 @@
+.container {
+  margin: 10px;
+}
+nav {
+  display: flex;
+  height: 72px;
+  background-color: #0475ba;
+  padding-left: 15px;
+  color: white;
+}
+
+.nav-ul {
+  display: flex;
+}
+
+nav ul li {
+  padding-left: 15px;
+  list-style-type: none;
+  padding-top: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    nav h1{
+        font-size: 14px;
+    }
+    .nav-ul {
+        display: none;
+      }
+      .padding-left-300{
+          padding-left: 120px!important;
+      }
+}
+
+.profile-section {
+  height: 150px;
+  display: flex;
+  padding-top: 20px;
+  margin: auto;
+  width: 600px;
+  flex: 1;
+}
+@media only screen and (max-width: 600px) {
+  .profile-section {
+    display: block;
+    flex-direction: column;
+    height: 250px;
+    padding-left: 30%;
+  }
+  .profile-name p {
+    color: #0475ba;
+    font-size: 12px;
+  }
+
+  .profile-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .profile-name h1 {
+    color: #0f1011;font-size: 14px;
+  }
+
+}
+
+.profile-name h1 {
+  color: #0f1011;
+}
+
+.profile-name p {
+  color: #0475ba;
+  font-size: 20px;
+}
+
+.profile-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.presentation-section {
+  background-color: #0475ba;
+  padding: 20px;
+  color: white;
+  margin-top: 25px;
+}
+
+
+.padding-left-300 {
+  padding-left: 300px;
+}
+
+.experience-section {
+  padding: 20px;
+}
+
+.experience-section h2 {
+  color: #0475ba;
+}
+
+.formation-section {
+  background-color: #0475ba;
+  padding: 20px;
+  color: white;
+  margin-top: 25px;
+}
+
+.passions-section {
+  padding: 20px;
+}
+
+.passions-section h2 {
+  color: #0475ba;
+}
+
+footer {
+  background-color: #0475ba;
+  padding: 20px;
+  display: flex;
+  height: 80px;
+}
+footer a {
+  color: white;
+  margin: 10px;
+}
+
+.social-media img {
+  width: 15px;
+  height: 15px;
+}
+
+.social-media {
+  padding-left: 200px;
+}
+
+.font-poppins {
+  font-family: poppins;
+}
+
+/* @media screen and (max-width: 575px) {
+    .profile-section {
+      
+      flex-direction: column;
+  }
+} */
+/* @media screen and (max-width:750px){
+    .padding-left-300{
+        padding-left: 50px!important;
+    }
+} */
